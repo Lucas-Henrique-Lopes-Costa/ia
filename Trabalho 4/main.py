@@ -7,15 +7,9 @@ import threading
 import queue
 
 # Estado final do Jogo dos Oito
-# 1 2 3
-# 8   4
-# 7 6 5
 GOAL_STATE = (1, 2, 3, 8, 0, 4, 7, 6, 5)
 
 # Estado inicial
-# 2   3
-# 1 7 4
-# 6 8 5
 INITIAL_BOARD = (2, 0, 3, 1, 7, 4, 6, 8, 5)
 
 # Mapa de posições do objetivo para cálculo da heurística
@@ -23,6 +17,7 @@ GOAL_POSITIONS = {tile: i for i, tile in enumerate(GOAL_STATE) if tile != 0}
 
 
 class PuzzleState:
+    
     """Representa um estado do Jogo dos Oito."""
 
     def __init__(self, board, parent=None, action=None, cost=0, heuristic=0):
