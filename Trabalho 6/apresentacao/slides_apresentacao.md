@@ -32,30 +32,6 @@ Demonstrar como múltiplos agentes inteligentes podem colaborar para resolver um
 
 ## Arquitetura do Sistema
 
-### Três Agentes Especializados
-
-**1. Agente Coletor**
-
-- Coleta posts de redes sociais
-- Organiza e estrutura os dados
-- Prepara informações para análise
-
-**2. Agente Analisador**
-
-- Processa cada post individualmente
-- Classifica o sentimento
-- Fornece justificativa e nível de confiança
-
-**3. Agente Relator**
-
-- Consolida todos os resultados
-- Calcula estatísticas gerais
-- Gera insights e recomendações
-
----
-
-## Fluxo de Trabalho
-
 ```
 ┌─────────────────┐
 │  Posts de       │
@@ -87,15 +63,7 @@ Demonstrar como múltiplos agentes inteligentes podem colaborar para resolver um
 
 ---
 
-## Desenho dos Agentes
-
-### Características de Cada Agente
-
-| Agente | Responsabilidade | Input | Output |
-|--------|------------------|-------|--------|
-| **Coletor** | Preparação de dados | Posts brutos | Posts estruturados |
-| **Analisador** | Classificação | Post individual | Sentimento + Confiança |
-| **Relator** | Consolidação | Todas análises | Relatório + Insights |
+## Características dos Agentes
 
 ### Comunicação
 
@@ -140,26 +108,10 @@ Demonstrar como múltiplos agentes inteligentes podem colaborar para resolver um
 
 ---
 
-### O projeto demonstrou com sucesso
-
-- Implementação de sistema multi-agente com AutoGen
-- Coordenação eficiente entre 3 agentes especializados
-- Análise automatizada de sentimentos em textos
-- Geração de relatórios e insights acionáveis
-
-### Conclusão Geral
-A abordagem multi-agente se mostrou **eficaz e elegante** para resolver problemas complexos através da **divisão de responsabilidades** e **especialização de tarefas**.
-
-O uso do **AutoGen** simplificou significativamente o desenvolvimento e a coordenação dos agentes.
-
----
-
 ## Referências
 
 - **AutoGen Documentation**: <https://microsoft.github.io/autogen/>
 - **OpenAI API**: <https://platform.openai.com/docs>
-- **Multi-Agent Systems**: Wooldridge, M. (2009)
-- **Natural Language Processing**: Jurafsky & Martin
 
 ---
 
