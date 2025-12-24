@@ -117,6 +117,4 @@ Demonstrar como múltiplos agentes inteligentes podem colaborar para resolver um
 
 # Obrigado
 
-- **Link para apresentação**: <https://>
-
----
+- **Link para apresentação**: <https://drive.google.com/file/d/1tIJA1cAYavZJ8XCiINi2B_taAqesoTq_/view?usp=sharing>
